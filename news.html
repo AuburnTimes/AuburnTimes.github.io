@@ -82,11 +82,62 @@
         margin: 0;
         font-family: F16;
       } 
+
+
+      .topnav {
+        overflow: hidden;
+        background-color: #000000;
+      }
+
+      #navicon {
+         float: left;
+         text-align: center;
+         padding: 11px 12px 0px 20px;
+         height: auto;
+      }
+  
+      #lefttext {
+         float: left;
+         color: #f2f2f2;
+         text-align: center;
+         padding: 9px;
+         text-decoration: none;
+         font-size: 30px;
+         font-weight: bold;
+      }
+      #active {
+         background-color: #222222;
+      }
+      .topnav a {
+         float: right;
+         color: #f2f2f2;
+         text-align: center;
+         padding: 15px 20px;
+         text-decoration: none;
+         font-size: 21px;
+      }
+      .gridcontainer {
+        display: grid;
+        align-items: center;
+        grid: auto/auto auto auto auto;
+        column-gap: 15px;
+      }
+      .appcaption {
+        font-weight: normal;
+      }
     </style>
 
     
   </head>
   <body>
+<div class="topnav">
+      <a id="navicon" href="home"><img src="favicon.ico" height="100%"></a>
+      <a id="lefttext" href="home">The Auburn Times</a>
+      <a href="other">Business</a>
+      <a href="about">About</a>
+      <a href="news">News</a>
+      <a id="active" href="auburntimes.github.io">News</a>
+    </div>
     
   <div class="gridcontainer">
     <div><a href="https://sites.google.com/view/theauburntimes/404error"><img src="NewsThumbnail/Black.png" width=100%></a><p class="appcaption">N/A</p></div>
